@@ -72,18 +72,25 @@
                             <span class="caret"></span>
                         </a>
                         <ul class="dropdown-menu" style="background-color:teal;">
-                            <li><a href="#" style="color:white">Birthday</a></li>
-                            <li><a href="#" style="color:white">Father's Day</a></li>
-                            <li><a href="#" style="color:white">Mother's Day</a></li>
-                            <li><a href="#" style="color:white">Congratulation</a></li>
-                            <li><a href="#" style="color:white">Baby New Arrival</a></li>
-                            <li><a href="#" style="color:white">Anniversary</a></li>
+                            <li> @Html.ActionLink("Birthday", "Category/1", "Home", new { area = "" }, new { @class = "item" , @style = "color:white" })</li>
+                            <li>@Html.ActionLink("Father's Day", "Category/2", "Home", new { area = "" }, new { @class = "item", @style = "color:white" })</li>
+                            <li> @Html.ActionLink("Mother's Day", "Category/3", "Home", new { area = "" }, new { @class = "item", @style = "color:white" })</li>
+                            <li> @Html.ActionLink("Baby New Arrival", "Category/4", "Home", new { area = "" }, new { @class = "item", @style = "color:white" }) </li>
+                            <li> @Html.ActionLink("Congratulation", "Category/5", "Home", new { area = "" }, new { @class = "item", @style = "color:white" }) </li>
+                            <li> @Html.ActionLink("Anniversary", "Category/6", "Home", new { area = "" }, new { @class = "item", @style = "color:white" }) </li>
                         </ul>
                     </li>
 
                     <li>@Html.ActionLink("About", "About", "Home", new { area = "" }, new { @class = "item" })</li>
                     <li>@Html.ActionLink("Contact", "Contact", "Home", new { area = "" }, new { @class = "item" })</li>
                 </ul>
+
+                <ul class="nav navbar-nav navbar-right">
+                    <li> @Html.ActionLink("Login", "Login", "Home", new { area = "" }, new { @class = "item", @style = "color:white;" }) </li>
+                    <li> @Html.ActionLink("AdminLogin", "Login", "Admin", new { area = "" }, new { @class = "item", @style = "color:white" }) </li>
+
+                </ul>
+
             </div>
         </div>
     </div>

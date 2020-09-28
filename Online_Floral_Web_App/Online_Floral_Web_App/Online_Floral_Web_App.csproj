@@ -147,10 +147,17 @@
     <Content Include="Content\Site.css" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
+    <Content Include="Images\abc.JPG" />
     <Content Include="Images\banner_1.jpg" />
     <Content Include="Images\banner_2.jpg" />
     <Content Include="Images\banner_3.jpg" />
     <Content Include="Images\banner_4.jpg" />
+    <Content Include="Images\Birthday\1.JPG" />
+    <Content Include="Images\Birthday\2.jpg" />
+    <Content Include="Images\Birthday\3.png" />
+    <Content Include="Images\Birthday\4.png" />
+    <Content Include="Images\Birthday\5.jpg" />
+    <Content Include="Images\Birthday\6.jpg" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="contctfrm_css\fonts\font-awesome-4.7.0\fonts\fontawesome-webfont.eot" />
@@ -353,6 +360,8 @@
     <Content Include="Views\sales\Edit.cshtml" />
     <Content Include="Views\sales\Index.cshtml" />
     <Content Include="Views\Admin\Index.cshtml" />
+    <Content Include="Views\Home\About.cshtml" />
+    <Content Include="Views\Home\Category.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -364,6 +373,8 @@
     <Folder Include="admin_css\assets\" />
     <Folder Include="admin_css\css\" />
     <Folder Include="admin_css\js\" />
+    <Folder Include="Images\Father%27s Day\" />
+    <Folder Include="Images\Mother%27s Day\" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
